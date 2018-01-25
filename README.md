@@ -22,5 +22,10 @@ mvn archetype:generate                    \
   -DarchetypeArtifactId=base-archetype    \
   -DarchetypeVersion=1.0-SNAPSHOT         \
   -DgroupId=<my.groupid>                  \
-  -DartifactId=<my-artifactId>
+  -DartifactId=<my-artifactId>            \
+  -Dversion=1.0-SNAPSHOT
+```
+
+```
+mvn archetype:generate -DarchetypeGroupId=com.crypto -DarchetypeArtifactId=base-archetype -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=<my.groupid> -DartifactId=<my-artifactId> -Dversion=1.0-SNAPSHOT
 ```
