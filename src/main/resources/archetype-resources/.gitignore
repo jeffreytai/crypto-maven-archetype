@@ -10,3 +10,4 @@ target/
 *.class
 
 **/resources/*.properties
+!**/resources/log4j.properties
