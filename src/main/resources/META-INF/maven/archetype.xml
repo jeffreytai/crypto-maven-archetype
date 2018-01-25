@@ -3,9 +3,9 @@
     <id>base-archetype</id>
     <allowPartial>true</allowPartial>
     <sources>
-        <source>src/main/java/App.java</source>
+        <source>src/main/java/com/crypto/Application.java</source>
     </sources>
     <testSources>
-        <source>src/test/java/AppTest.java</source>
+        <source>src/test/java/com/crypto/AppTest.java</source>
     </testSources>
 </archetype>
